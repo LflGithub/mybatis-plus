@@ -111,7 +111,7 @@ public class CodeGenerator {
         //配置自定义输出模板,为空或者null时，该文件不生成
         //指定自定义模板路径，注意不要带上.ftl/.vm后缀, 会根据使用的模板引擎自动识别
         tc.setController("template/Controller.java");
-        tc.setMapper("template/Dao.java");
+        tc.setMapper("template/Mapper.java");
         tc.setService("template/Service.java");
         tc.setServiceImpl("template/ServiceImpl.java");
         tc.setEntity("template/Entity.java");
